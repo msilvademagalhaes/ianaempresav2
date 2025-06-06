@@ -6,7 +6,7 @@ export default function About() {
     <div className="min-h-screen bg-blue-50 flex flex-col">
       <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
         <h1 className="text-xl font-bold">Sobre o Score de Maturidade em IA</h1>
-        <Link href="/" className="hover:underline">Início</Link>
+        <Link href="/" legacyBehavior><a className="hover:underline">Início</a></Link>
       </header>
 
       <main className="flex-grow p-6 max-w-3xl mx-auto space-y-4 text-gray-800">

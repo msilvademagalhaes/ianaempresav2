@@ -60,7 +60,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-r from-blue-50 to-blue-100 flex flex-col">
       <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
         <h1 className="text-xl font-bold">Score de Maturidade em IA</h1>
-        <Link href="/about" className="hover:underline">Sobre</Link>
+        <Link href="/about" legacyBehavior><a className="hover:underline">Sobre</a></Link>
       </header>
 
       <main className="flex-grow flex flex-col items-center p-6">
